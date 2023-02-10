@@ -68,3 +68,50 @@ input[type="buttonknow"] {
 input[type="buttonknow"],[type="buttonmove"]:hover {
 	cursor: pointer;
 }
+legend {
+	font-size: 20px;
+	color: rgb(255, 0, 0);
+}
+
+fieldset {
+	background-color: rgba(0, 0, 0, 0.478);
+}
+
+* {
+	box-sizing: border-box;
+}
+form label {
+	font-weight: bold;
+	display: inline-block;
+	color:white
+}
+form input[type="email"],
+form input [type="number"] {
+	width: 180px;
+	padding: 3px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	margin: 8px 0;
+	display: inline-block;
+}
+
+form input[type="submit"] {
+	width: 100%;
+	padding: 16px;
+	margin-top: 32px;
+	border: 1px solid #cf6363;
+	border-radius: 5px;
+	display: block;
+	color: #fff;
+	background-color: #ff0000;
+	margin: auto;
+}
+form {
+	width: 100%;
+	padding: 16px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #070000a9;
+}
+.condiciones p {color:white;}

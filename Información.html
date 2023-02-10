@@ -156,5 +156,34 @@
         <li>Protección ante mosquitos</li>
         <li>¡Muchas ganas y alegría!</li>
     </ul>
+    <br><br><br>
+    <form action="#" target="" method="get" name="solicitudinfo">
+    <fieldset>
+        <legend><strong>Solicita Información</strong></legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required />
+        <label for="apellidos">1º Apellido</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tu primer apellido" required />
+        <label for="apellidos">2º Apellido</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tu segundo apellido" required />
+        <br><br>
+        <label for="course">Curso de interés</label>
+        <select name="course">
+            <option value="kds"> PuebloInglés Kids</option>
+            <option value="tns" selected="selected"> PuebloInglés Teens</option>
+            <option value="twt"> PuebloInglés Twenty</option>
+        </select>
+        <br><br>       
+        <label for="number">Número de teléfono</label>
+        <input type="text" name="number" id="number" placeholder="Escribe tu teléfono" required />
+        <label for="e-mail">E-mail</label>
+        <input type="email" name="correo" placeholder="Escribe tu correo" required />
+        <br>
+        <p>Acepto condiciones de gestión de mis datos personales <input type="checkbox" value="acepta" name="condiciones">
+        </p>
+        <br>
+        <input type="submit" name="enviar" value="ENVIAR">
+    </fieldset>
+    </form>
 </body>
 </html>
