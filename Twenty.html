@@ -11,21 +11,23 @@
 </head>
 
 <body>
-    <h1>Inmersiones Lingüísticas</h1>
     <header>
-        <ul class="nav">
-            <li><a href="index.html"><img src="./img/idiomas.png" height="25" width="25"></a></li>
-            <li><a href="Camps.html">Campamentos</a>
-                <ul>
-                    <li><a href="Twenty.html">Adultos</a></li>
-                    <li><a href="Jóvenes.html">Jóvenes</a></li>
-                    <li><a href="Niños.html">Niños</a></li>
-                    <li><a href="Becados.html">Becados</a></li>
-                </ul>
-            </li>
-            <li><a href="Información.html">Información</a></li>
-            <li><a href="Enclaves.html">Enclaves</a></li>
-        </ul>
+        <h1>Inmersiones Lingüísticas</h1>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="index.html"><img src="./img/idiomas.png" height="25" width="25"></a></li>
+                <li><a href="Camps.html">Campamentos</a>
+                    <ul class="submenu">
+                        <li><a href="Twenty.html">Adultos</a></li>
+                        <li><a href="Jóvenes.html">Jóvenes</a></li>
+                        <li><a href="Niños.html">Niños</a></li>
+                        <li><a href="Becados.html">Becados</a></li>
+                    </ul>
+                </li>
+                <li><a href="Información.html">Información</a></li>
+                <li><a href="Enclaves.html">Enclaves</a></li>
+            </ul>
+        </nav>
     </header>
     <img src="./img/teen.jpg">
     <h2>Pueblo Inglés Twenty - En España</h2>
@@ -85,13 +87,11 @@
             <label for="e-mail">E-mail</label>
             <input type="email" name="correo" placeholder="Escribe tu correo" required />
             <br>
-            <div class="condiciones">
-            <p>Acepto condiciones de gestión de mis datos personales <input type="checkbox" value="acepta" name="condiciones">
+            <p style="color:white">Acepto condiciones de gestión de mis datos personales <input type="checkbox" value="acepta" name="condiciones">
             </p>
-            </div>
             <br>
-            <input type="submit" name="enviar" value="ENVIAR">
         </fieldset>
+        <input type="submit" name="enviar" value="ENVIAR">
         </form>
 </body>
 
