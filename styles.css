@@ -155,14 +155,14 @@ h1 {
 	padding-top: 15px;
 }
 
-p {
+.textind {
 	font-weight: bold;
 	margin: 10px 10px;
-	font-size: 20px;
+	font-size: 23px;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -210,7 +210,109 @@ table {
 .container-img .box-img:nth-child(1) {
 	grid-column-start: span 2;
 }
-img{
-	display:block;
-	margin:auto;
-	}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+p {
+	font-size: large;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 15px;
+}
+
+strong {
+	color: red;
+	font-size: large;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+	padding: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: large;
+	text-align: center;
+	vertical-align: middle;
+	font-family: sans-serif;
+}
+
+td,
+tr {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	background-color: #ff000096;
+	color: white;
+	padding: 15px;
+}
+
+th {
+	padding-bottom: 5px;
+	border: none;
+	font-size: larger;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.63);
+	color: white;
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+}
+
+thead>th {
+	background-color: black;
+	color: white;
+}
+
+li {
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+ol {
+	margin-left: 50px;
+}
+
+pre {
+	background-color: rgba(255, 0, 0, 0.315);
+	font-weight: bolder;
+	font-size: larger;
+	font-family: cursive;
+	text-align: center;
+}
+
+a:visited {
+	color: rgb(255, 0, 0);
+}
+
+a:hover {
+	color: rgba(255, 0, 0, 0.734) (6, 65, 14);
+	background-color: yellow;
+	font-family: impact;
+}
+
+a:active {
+	color: darkred;
+}
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.centrado2{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: red;
+	font-size: 65px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	font-weight: bold;
+	background-image: url(/img/ninos.jpg);
+}
