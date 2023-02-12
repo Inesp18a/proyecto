@@ -177,7 +177,7 @@ table {
 	cursor: pointer;
 	color: white;
 	margin-top: 10px;
-	margin left: 25px;
+	margin-left: 25px;
 }
 
 .btn-1:hover {
@@ -316,8 +316,7 @@ ul {
 	cursor: pointer;
 	color: rgb(0, 0, 0);
 	margin-top: 10px;
-	margin left: 25px;
-	transition: all 0.2s;
+	margin-left: 25px;
 }
 
 .btn-2:hover {
