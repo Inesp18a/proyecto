@@ -296,23 +296,27 @@ a:hover {
 a:active {
 	color: darkred;
 }
-.container{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+.title {
+	font-size: 70px;
 }
-.centrado2{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	color: red;
-	font-size: 65px;
-	font-family: 'Times New Roman', Times, serif;
-	text-align: center;
-	font-weight: bold;
-	background-image: url(/img/ninos.jpg);
+h4 {
+	font-size: medium;
+	color:blue;
+}
+ul{
+	margin-left: 35px;
+}
+.btn-2 {
+	background-color: yellow;
+	padding: 10px 15px;
+	cursor: pointer;
+	color: rgb(0, 0, 0);
+	margin-top: 10px;
+	margin left: 25px;
+	transition:all 0.2s;
+}
+
+.btn-2:hover {
+	background-color: darkblue;
+	color:red
 }
